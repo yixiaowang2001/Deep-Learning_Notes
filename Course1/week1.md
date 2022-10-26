@@ -6,5 +6,5 @@
 + Unstructured Data: Audio, Image, ...
 
 <p align="center">
-  <img src="res/img/week1/img1.png" width="500"/>
+  <img src="res/img/img1.png" width="500"/>
 </p>
