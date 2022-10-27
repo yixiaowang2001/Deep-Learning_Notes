@@ -6,3 +6,5 @@ Coursera **Deep Learning Specialization** from DeepLearning.AI ([link](https://w
 - [ ] 3. Structuring Machine Learning Projects ![1](https://progress-bar.dev/0)
 - [ ] 4. Convolutional Neural Networks ![1](https://progress-bar.dev/0)
 - [ ] 5. Sequence Models ![1](https://progress-bar.dev/0)
+
+<img align="right" src="https://progress-bar.dev/15">
