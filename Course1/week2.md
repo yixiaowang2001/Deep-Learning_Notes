@@ -92,7 +92,7 @@ Update gradient based on (w, b):
 
 ## 6. Logistic Regression
 
-### a. Code
+### a. Pseudocode
 
 #### i. For loop version
 
@@ -105,3 +105,10 @@ Update gradient based on (w, b):
 <p align="center">
   <img src="res/img/img16.png" width="600"/>
 </p>
+
+### b. Process
+
+<p align="center">
+  <img src="res/img/img17.png" width="600"/>
+</p>
+
