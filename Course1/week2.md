@@ -13,13 +13,13 @@
 ### b. Notation
 
 <p align="center">
-  <img src="res/img/img3.png" width="500"/>
+  <img src="res/img/img3.png" width="800"/>
 </p>
 
 ### c. Logistic Regression
 
-Apply sigmoid function to normal regression equation
+Apply sigmoid function to normal regression equation:
 
 <p align="center">
-  <img src="res/img/img4.png" width="500"/>
+  <img src="res/img/img4.png" width="800"/>
 </p>
