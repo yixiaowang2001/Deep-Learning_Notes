@@ -31,15 +31,19 @@
 + 定义Logistic Regression的loss function：
 
 <p align="center">
-  <img src="res/img/img5.png" width="600"/>
+  <img src="res/img/img5.png" width="700"/>
 </p>
 
 + Cost function为：
 
 <p align="center">
-  <img src="res/img/img6.png" width="600"/>
+  <img src="res/img/img6.png" width="700"/>
 </p>
 
 ### c. Gradient Descent
 
-Update gradient:
+Update gradient based on (w, b):
+
+<p align="center">
+  <img src="res/img/img7.png" width="500"/>
+</p>
