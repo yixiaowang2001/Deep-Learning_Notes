@@ -59,6 +59,6 @@ Update gradient based on (w, b):
 + 相比正向推导，在计算微分的时候，我们会反向来看整个流程（chain rule）
 
 <p align="center">
-  <img src="res/img/img8.png" width="600"/>
-  <img src="res/img/img8.png" width="600"/>
+  <img src="res/img/img8.png" width="500"/>
+  <img src="res/img/img8.png" width="500"/>
 </p>
