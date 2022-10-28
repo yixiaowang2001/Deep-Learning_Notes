@@ -34,7 +34,7 @@
   <img src="res/img/img5.png" width="800"/>
 </p>
 
-+ Cost function为：
++ Cost function：
 
 <p align="center">
   <img src="res/img/img6.png" width="800"/>
@@ -46,4 +46,19 @@ Update gradient based on (w, b):
 
 <p align="center">
   <img src="res/img/img7.png" width="400"/>
+</p>
+
+## 3. Computation Graph
+
++ Example
+
+<p align="center">
+  <img src="res/img/img8.png" width="600"/>
+</p>
+
++ 相比正向推导，在计算微分的时候，我们会反向来看整个流程（chain rule）
+
+<p align="center">
+  <img src="res/img/img8.png" width="600"/>
+  <img src="res/img/img8.png" width="600"/>
 </p>
