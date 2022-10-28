@@ -62,3 +62,18 @@ Update gradient based on (w, b):
   <img src="res/img/img9.png" width="500"/>
   <img src="res/img/img10.png" width="500"/>
 </p>
+
+## 4. Logistic Regression Derivatives
+
++ Simplified formula for the derivative of the losswith respect to z: a - y
+
+<p align="center">
+  <img src="res/img/img11.png" width="600"/>
+</p>
+
++ Logistic regression on m examples（如果按照右图的写法的话，需要两个for loop（i和num of features），所以我们通常使用Vectorization）
+
+<p align="center">
+  <img src="res/img/img12.png" width="500"/>
+  <img src="res/img/img13.png" width="500"/>
+</p>
