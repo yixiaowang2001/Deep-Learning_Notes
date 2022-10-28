@@ -77,3 +77,15 @@ Update gradient based on (w, b):
   <img src="res/img/img12.png" width="500"/>
   <img src="res/img/img13.png" width="500"/>
 </p>
+
+## 5. Vectorization
+
+### a. Comparison
+
+<p align="center">
+  <img src="res/img/img14.png" width="600"/>
+</p>
+
+### b. Code
+
+[week2_Vectorization.ipynb](https://github.com/yixiaowang2001/Deep-Learning_Notes/blob/main/Course1/week2_Vectorization.ipynb)
