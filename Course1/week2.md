@@ -88,4 +88,20 @@ Update gradient based on (w, b):
 
 ### b. Code
 
-[week2_Vectorization.ipynb](https://github.com/yixiaowang2001/Deep-Learning_Notes/blob/main/Course1/week2_Vectorization.ipynb)
+[week2.ipynb](https://github.com/yixiaowang2001/Deep-Learning_Notes/blob/main/Course1/week2.ipynb)
+
+## 6. Logistic Regression
+
+### a. Code
+
+#### i. For loop version
+
+<p align="center">
+  <img src="res/img/img15.png" width="500"/>
+</p>
+
+#### ii. Vectorization version
+
+<p align="center">
+  <img src="res/img/img16.png" width="600"/>
+</p>
