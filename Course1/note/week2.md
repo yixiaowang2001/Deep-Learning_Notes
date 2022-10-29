@@ -156,3 +156,7 @@ Update gradient based on (w, b):
 <p align="center">
   <img src="../res/img/img24.png" width="600"/>
 </p>
+
+## 10. Binary Classification Model
+
+[week2.ipynb](https://github.com/yixiaowang2001/Deep-Learning_Notes/blob/main/Course1/code/week2.ipynb)
