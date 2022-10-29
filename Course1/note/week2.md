@@ -112,3 +112,27 @@ Update gradient based on (w, b):
   <img src="../res/img/img17.png" width="600"/>
 </p>
 
+### c. Vectorizing Logistic Regression
+
+<p align="center">
+  <img src="../res/img/img18.png" width="350"/>
+</p>
+
+## 7. Broadcasting Python
+
+### a. Data
+
+<p align="center">
+  <img src="../res/img/img19.png" width="350"/>
+</p>
+
+### b. Code
+
+[week2.ipynb](https://github.com/yixiaowang2001/Deep-Learning_Notes/blob/main/Course1/code/week2.ipynb)
+
+### c. General Principle & Examples
+
+<p align="center">
+  <img src="../res/img/img20.png" width="500"/>
+  <img src="../res/img/img21.png" width="500"/>
+</p>
