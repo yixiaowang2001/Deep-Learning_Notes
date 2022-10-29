@@ -123,7 +123,7 @@ Update gradient based on (w, b):
 ### a. Data
 
 <p align="center">
-  <img src="../res/img/img19.png" width="350"/>
+  <img src="../res/img/img19.png" width="600"/>
 </p>
 
 ### b. Code
@@ -135,4 +135,24 @@ Update gradient based on (w, b):
 <p align="center">
   <img src="../res/img/img20.png" width="500"/>
   <img src="../res/img/img21.png" width="500"/>
+</p>
+
+## 8. A Note on Python/Numpy Vectors
+
+<p align="center">
+  <img src="../res/img/img22.png" width="600"/>
+</p>
+
+## 9. Explanation of Logistic Regression Cost Funciton
+
+### a. Logistic Regression Cost Function
+
+<p align="center">
+  <img src="../res/img/img23.png" width="600"/>
+</p>
+
+### b. Cost on m Examples
+
+<p align="center">
+  <img src="../res/img/img24.png" width="600"/>
 </p>
