@@ -25,4 +25,8 @@
   <img src="../res/img/img28.png" width="600"/>
 </p>
 
-## 3.
+## 3. Vectorizing Across Multiple Examples
+
+<p align="center">
+  <img src="../res/img/img29.png" width="600"/>
+</p>
