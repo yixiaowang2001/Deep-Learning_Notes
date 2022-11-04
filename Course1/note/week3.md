@@ -30,3 +30,5 @@
 <p align="center">
   <img src="../res/img/img29.png" width="600"/>
 </p>
+
+## 4. Acitivation Functions
