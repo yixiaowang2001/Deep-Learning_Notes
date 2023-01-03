@@ -52,4 +52,46 @@
   <img src="../res/img/img31.png" width="600"/>
 </p>
 
-## 5. Derivatives of Activation Functions
+### c. Derivatives of Activation Functions
+
+#### i. Sigmoid
++ z -> large, g' -> 0
++ z -> small, g' -> 0
++ z = 0, g' = 1/4
++ a = g(z), g' = a(1-a)
+
+#### ii. Tanh 
++ z -> large, g' -> 0
++ z -> small, g' -> 0
++ z = 0, g' = 1
++ a = g(z), g' = 1 - a^2
+
+#### iii. ReLU and Leaky ReLU
++ g1(z) = max(0, z); g2(z) = max(0.01z, z)
++ z < 0, g1'(z) = 0
++ z > 0, g1'(z) = 1
++ z < 0, g2'(z) = 0.01
++ z > 0, g2'(z) = 1
+
+### d. Gradient Descent for Neural Networks
+
+<p align="center">
+  <img src="../res/img/img32.png" width="600"/>
+</p>
+
+### e. Backpropagation Intuition
+
+<p align="center">
+  <img src="../res/img/img33.png" width="600"/>
+</p>
+
+## 5. Random Initialization
+
+为什么选择0.01？
++ 如果过大（100，1000），梯度下降会非常缓慢
++ 0.01导致神经网络不会包含过多的隐藏层（对于简单神经网络来说是个优势）
+
+```Python
+W[1] = np.random.randn((2, 2))*0.01
+b[1] = np.zero((2,1))
+```
