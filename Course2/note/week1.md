@@ -77,3 +77,53 @@ Intuition：分散权重（每层拥有不同权重）
 <p align="center">
   <img src="../res/img/img10.png" width="600"/>
 </p>
+
+## 2. Optimization Problems
+
+### a. Normalizing Inputs
+
++ Normal training and test sets together
++ normalization可以让gradient descent过程快一些
+
+<p align="center">
+  <img src="../res/img/img11.png" width="500"/>
+  <img src="../res/img/img12.png" width="500"/>
+</p>
+
+### b. Vanishing / Exploding Gradients
+
+梯度爆炸：权重太大/初始值（大于一）有关
+
+<p align="center">
+  <img src="../res/img/img13.png" width="600"/>
+</p>
+
+### c. Weight Initialization for Deep Networks
+
+<p align="center">
+  <img src="../res/img/img14.png" width="600"/>
+</p>
+
+### d. Gradient Checking
+
+#### i. Numerical approximation of gradients
+
+<p align="center">
+  <img src="../res/img/img15.png" width="600"/>
+</p>
+
+#### ii. Gradient check
+
+1. Take W[1], b[1], ... , W[L], b[L] and reshape into a big vector theta.
+    + J(W[1], b[1], ... , W[L], b[L]) -> J(theta)
+2. Take dW[1], db[1], ... , dW[L], db[L] and reshape into a big vector dtheta.
+
+<p align="center">
+  <img src="../res/img/img16.png" width="600"/>
+</p>
+
+#### iii. Notes
+
+<p align="center">
+  <img src="../res/img/img17.png" width="600"/>
+</p>
