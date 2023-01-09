@@ -88,3 +88,17 @@ Why weighted average?
 </p>
 
 ## 4. RMSprop
+
++ 在垂直方向上震荡更小
++ 可以使用更大的learning rate
+
+<p align="center">
+  <img src="../res/img/img29.png" width="600"/>
+</p>
+
+## 5. Adam Optimization ALgorithm
+
+<p align="center">
+  <img src="../res/img/img30.png" width="500"/>
+  <img src="../res/img/img31.png" width="500"/>
+</p>
