@@ -102,3 +102,26 @@ Why weighted average?
   <img src="../res/img/img30.png" width="500"/>
   <img src="../res/img/img31.png" width="500"/>
 </p>
+
+## 6. Learning Rate Decay
+
++ 开始的时候learning rate较大，之后在靠近converge点的时候慢慢减小
++ Hyperparameter: alpha_0
+
++ epoch -> learning rate
+    + 1 -> 0.1
+    + 2 -> 0.067
+    + 3 -> 0.05
+    + 4 -> 0.04
+
+<p align="center">
+  <img src="../res/img/img32.png" width="500"/>
+  <img src="../res/img/img33.png" width="500"/>
+</p>
+
+## 7. The Problem of Local Optima
+
+<p align="center">
+  <img src="../res/img/img34.png" width="500"/>
+  <img src="../res/img/img35.png" width="500"/>
+</p>
