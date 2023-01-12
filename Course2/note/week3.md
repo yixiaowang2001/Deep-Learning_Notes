@@ -6,7 +6,7 @@
 
 Important Hyperparameters: learning rate -> beta, number of hidden units, mini-batch size -> number of layers learning rate decay
 
-+ ry random values: Don't use a grid!
++ Try random values: Don't use a grid!
 + Coarse to find
 
 <p align="center">
