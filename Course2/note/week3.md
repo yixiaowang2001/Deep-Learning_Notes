@@ -32,3 +32,50 @@ Important Hyperparameters: learning rate -> beta, number of hidden units, mini-b
 <p align="center">
   <img src="../res/img/img40.png" width="600"/>
 </p>
+
+## 2. Batch Normlaization
+
+### a. Implement Batch Norm
+
+<p align="center">
+  <img src="../res/img/img41.png" width="600"/>
+</p>
+
+### b. Fitting into a NN
+
+Basic process:
+
+<p align="center">
+  <img src="../res/img/img42.png" width="600"/>
+</p>
+
++ 参数BetaL来决定 (带波浪号的)zL的均值，因为BN算法使层级中各个zL的均值为0，我们就没有理由保留参数bL，所以就把它忽略了相应地被BetaL所代替
++ zL, betaL, gammaL, bL的shape都是(nL, 1)
+
+<p align="center">
+  <img src="../res/img/img43.png" width="500"/>
+  <img src="../res/img/img44.png" width="500"/>
+</p>
+
+### c. Why Does Batch Norm Work?
+
+Covariate shift：对猫进行classification，input全部黑猫转换成各种各样的颜色的猫
+
+<p align="center">
+  <img src="../res/img/img45.png" width="600"/>
+</p>
+
+Z值变化，但mean和variance都不会偏离0和1太多
+
+<p align="center">
+  <img src="../res/img/img46.png" width="500"/>
+  <img src="../res/img/img47.png" width="500"/>
+</p>
+
+### d. Batch Norm at Test Time
+
+Test time: 在测试时，我们可能会需要处理单个测试实例，处理的方式就是通过训练集来估算mu和sigma平方。理论上，我们可以用我们最后的网络运行整个训练集来得到mu和sigma平方，但是实际上人们会用某种指数加权平均来记住在训练时见到的mu和sigma平方的值，然后用这个指数加权平均数来得到mu和sigma平方的粗略的估算。然后我们用这些mu和sigma平方的估算值，在测试时进行比例缩放来获取隐藏神经元的Z值 
+
+<p align="center">
+  <img src="../res/img/img48.png" width="600"/>
+</p>
