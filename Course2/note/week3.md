@@ -79,3 +79,67 @@ Test time: 在测试时，我们可能会需要处理单个测试实例，处理
 <p align="center">
   <img src="../res/img/img48.png" width="600"/>
 </p>
+
+## 3. Multi-class Classification
+
+### a. Softmax Regression
+
+如果number of class = 4，那么输出层就有四个，每个都是P(class_n|x)的概率
+
+<p align="center">
+  <img src="../res/img/img48.png" width="600"/>
+</p>
+
+### b. Training a Softmax Classifier
+
+<p align="center">
+  <img src="../res/img/img49.png" width="600"/>
+</p>
+
+Implementation:
+
+<p align="center">
+  <img src="../res/img/img50.png" width="500"/>
+  <img src="../res/img/img51.png" width="500"/>
+</p>
+
+## 4. Programming Frameworks
+
+### a. Deep Learning Frameworks
+
+<p align="center">
+  <img src="../res/img/img52.png" width="600"/>
+</p>
+
+### b. TensorFlow
+
+#### i. Motivating problem
+
+<p align="center">
+  <img src="../res/img/img53.png" width="600"/>
+</p>
+
+#### ii. Coding
+
+```Python
+import numpy as np
+import tensorflow as tf
+```
+
+```Python
+w = tf.Variable(0, dtype=tf.float32)  # TF float
+optimizer = tf.keras.optimizers.Adam(0.1)  # learning_rate = 0.1
+
+def train_step():
+  with tf.GradientTape() as tape:  # Record sequency of propagation
+    cost = w**2 - 10*w + 25  # 我们只需要输入forward prop，TF会自动完成backward prop
+  trainable_variables = [w]
+  grads = tap.gradient(cost, trainable_variables)
+  optimizer.apply_gradients(zip(grads, trainable_variable))
+
+```
+
+```Python
+for i in range(1000):
+  train_step()
+```
