@@ -74,4 +74,34 @@ Example 2: 更清晰的图片和不清晰（用户自己上传的） -> 用户�
 
 ## 3. Comparing to Human-level Performance
 
+### a. Why Human Level Performance?
 
+超过human performance就没有意义了
+
+<p align="center">
+  <img src="../res/img/img10.png" width="500"/>
+  <img src="../res/img/img11.png" width="500"/>
+</p>
+
+### b. Avoidable Bias
+
++ 参考人的error standard
++ Avoidable bias：training error和human error
+
+<p align="center">
+  <img src="../res/img/img12.png" width="600"/>
+</p>
+
+### c. Understanding Human-level Performance
+
+What is "human-level" error? -> Bayes error
+
+<p align="center">
+  <img src="../res/img/img13.png" width="600"/>
+</p>
+
+### d. Imrpoving Model Performance
+
+<p align="center">
+  <img src="../res/img/img14.png" width="600"/>
+</p>
