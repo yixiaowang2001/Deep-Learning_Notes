@@ -61,7 +61,7 @@ Correct incorrect dev/test set:
   <img src="../res/img/img21.png" width="600"/>
 </p>
 
-## 3，Learning from Multiple Tasks
+## 3. Learning from Multiple Tasks
 
 ### a. Transfer Learning
 
