@@ -71,3 +71,37 @@ When transfer learning makes sense:
 
 + Task A and B have the same input x
 + You have a lot more data for Task A than Task B
+
+
+### b. Multi-task learning
+
+<p align="center">
+  <img src="../res/img/img22.png" width="500"/>
+  <img src="../res/img/img23.png" width="500"/>
+</p>
+
+When multi-task learning make sense:
+
+<p align="center">
+  <img src="../res/img/img24.png" width="600"/>
+</p>
+
+## 4. End-to-end Deep Learning
+
+### a. Introduction
+
+对于一些数据处理系统或者是由多个阶段组成的学习系统，端到端的深度学习可以它们捕获所有的阶段，并且可以将其替代为单个神经网络 -> 也就是说运行速度更快
+
+Examples
+
+<p align="center">
+  <img src="../res/img/img25.png" width="500"/>
+  <img src="../res/img/img26.png" width="500"/>
+</p>
+
+### b. Discussion
+
+<p align="center">
+  <img src="../res/img/img27.png" width="500"/>
+  <img src="../res/img/img28.png" width="500"/>
+</p>
