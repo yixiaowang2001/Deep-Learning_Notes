@@ -38,3 +38,39 @@ More edge detection
 
 ### d. Strided Convolution
 
+Stirde -> 跳步 
+
+<p align="center">
+  <img src="../res/img/img6.png" width="500"/>
+  <img src="../res/img/img7.png" width="500"/>
+</p>
+
+### e. Convolutions Over Volume
+
+<p align="center">
+  <img src="../res/img/img8.png" width="600"/>
+</p>
+
+### f. One Layer of a Convolutional Network
+
+<p align="center">
+  <img src="../res/img/img9.png" width="600"/>
+</p>
+
+If you have 10 filters that are 3*3*3 in one layer of a neural network, hwo many parameters does that layer have? -> 3*3*3+1 = 28; 28*10 = 280
+
+Summary of notation:
+
+<p align="center">
+  <img src="../res/img/img9.png" width="600"/>
+</p>
+
+Example of ConvNet:
+
++ Convolution (CONV)
++ Pooling (POOL)
++ Fully connected (FC)
+
+<p align="center">
+  <img src="../res/img/img10.png" width="600"/>
+</p>
