@@ -54,7 +54,7 @@ Stirde -> 跳步
 
 ### d. One Layer of a Convolutional Network
 
-If you have 10 filters that are 3*3*3 in one layer of a neural network, hwo many parameters does that layer have? -> 3*3*3+1 = 28; 28*10 = 280
+If you have 10 filters that are 3\*3\*3 in one layer of a neural network, hwo many parameters does that layer have? -> 3\*3\*3+1 = 28; 28*10 = 280
 
 Summary of notation:
 
