@@ -69,3 +69,19 @@ Shrink networks
 <p align="center">
   <img src="../res/img/img26.png" width="600"/>
 </p>
+
+### d. Inception Network
+
+#### i. Motivation
+
+<p align="center">
+  <img src="../res/img/img27.png" width="600"/>
+</p>
+
++ The problem of computational cost
++ Different structure: using 1X1 convolution -> bottleneck layer
+
+<p align="center">
+  <img src="../res/img/img28.png" width="500"/>
+  <img src="../res/img/img29.png" width="500"/>
+</p>
