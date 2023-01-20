@@ -85,3 +85,16 @@ Shrink networks
   <img src="../res/img/img28.png" width="500"/>
   <img src="../res/img/img29.png" width="500"/>
 </p>
+
+#### ii. Inception Network
+
+<p align="center">
+  <img src="../res/img/img30.png" width="500"/>
+  <img src="../res/img/img31.png" width="500"/>
+</p>
+
+Paper cite了inception
+
+<p align="center">
+  <img src="../res/img/img32.png" width="600"/>
+</p>
