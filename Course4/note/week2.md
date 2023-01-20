@@ -170,6 +170,68 @@ Ways to change scale:
   <img src="../res/img/img43.png" width="600"/>
 </p>
 
-# 2. Advices for Using Conv
+## 2. Advices for Using Conv
 
-## a. 
+### a. Transfer Learning
+
+Use pre-trained parameters (imageNet, coco, ...)
+
+#### i. Small training set：
++ Method 1（蓝色）
+  1. Freeze parameters of layers
+  2. Change softmax layer (depends on real problems)
++ Method 2（紫色）
+  1. 将input放入pre-trained model，得到output
+  2. 对output搭建一个shallow network
+
+<p align="center">
+  <img src="../res/img/img44.png" width="600"/>
+</p>
+
+#### ii. Larger training set：
+1. Freeze some layers
+2. Train others
+
+<p align="center">
+  <img src="../res/img/img45.png" width="600"/>
+</p>
+
+#### iii. Lots of data:
+1. 用开源神经网络的权重作为初始值（replace随机值初始化）
+2. 重新训练整个网络
+
+<p align="center">
+  <img src="../res/img/img46.png" width="600"/>
+</p>
+
+### b. Data Augmentation
+
+#### i. Common Augmentation Methods
+
++ Mirroring
++ Random cropping
++ Rotation
++ Shearing
++ Local warping
+
+<p align="center">
+  <img src="../res/img/img47.png" width="600"/>
+</p>
+
+#### ii. Color Shifting
+
+PCA color augmentation -> 如果图片主要是紫色（红+蓝），那么这个算法会对红色和蓝色的改变多，绿色相对少
+
+<p align="center">
+  <img src="../res/img/img48.png" width="600"/>
+</p>
+
+#### iii. Implementation
+
+Can be done in parallel
++ One thread: loading data and augmenting
++ The other thread: training
+
+<p align="center">
+  <img src="../res/img/img49.png" width="600"/>
+</p>
