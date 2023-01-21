@@ -71,3 +71,71 @@ Motivation：判断是否算法对同一目标有多次检测 -> 几个选中的
   <img src="../res/img/img61.png" width="500"/>
   <img src="../res/img/img62.png" width="500"/>
 </p>
+
+Implement：
+
+<p align="center">
+  <img src="../res/img/img63.png" width="600"/>
+</p>
+
+### g. Anchor Box
+
+Motivation：detect multiple objects
+
+<p align="center">
+  <img src="../res/img/img64.png" width="600"/>
+</p>
+
+Implement
+
+<p align="center">
+  <img src="../res/img/img65.png" width="600"/>
+</p>
+
+Example
+
+<p align="center">
+  <img src="../res/img/img66.png" width="600"/>
+</p>
+
+### h. YOLO Algorithm
+
+Training
+
+<p align="center">
+  <img src="../res/img/img67.png" width="600"/>
+</p>
+
+Making predictions
+
+<p align="center">
+  <img src="../res/img/img68.png" width="600"/>
+</p>
+
+Outputting the non-max suppressed outputs
+
+<p align="center">
+  <img src="../res/img/img69.png" width="600"/>
+</p>
+
+
+### i. Region Proposol
+
+Procedure：将图片变成最右边的样式，然后对每个色块来运行YOLO（是一种segment algorithm）
+
+<p align="center">
+  <img src="../res/img/img70.png" width="600"/>
+</p>
+
+### j. Semantic Segementation
+
+<p align="center">
+  <img src="../res/img/img71.png" width="500"/>
+  <img src="../res/img/img72.png" width="500"/>
+</p>
+
+Deep learning architure for semantic segementation
+
+<p align="center">
+  <img src="../res/img/img73.png" width="600"/>
+</p>
