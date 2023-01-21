@@ -46,11 +46,28 @@ Defining the target label y
   <img src="../res/img/img57.png" width="600"/>
 </p>
 
-#### iv. Bounding Box Algorithm
+### d. Bounding Box Algorithm
 
 YOLO algorithm：将一张图平等分为nxn大小，然后对每个部分prediction得到一个output
 
 <p align="center">
   <img src="../res/img/img58.png" width="500"/>
   <img src="../res/img/img59.png" width="500"/>
+</p>
+
+### e. Intersection with Union
+
+Motivation：检验检测效果如何 -> 比率
+
+<p align="center">
+  <img src="../res/img/img60.png" width="600"/>
+</p>
+
+### f. Non-max Suppression
+
+Motivation：判断是否算法对同一目标有多次检测 -> 几个选中的目标中选择概率最高的
+
+<p align="center">
+  <img src="../res/img/img61.png" width="500"/>
+  <img src="../res/img/img62.png" width="500"/>
 </p>
