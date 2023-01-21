@@ -235,3 +235,17 @@ Can be done in parallel
 <p align="center">
   <img src="../res/img/img49.png" width="600"/>
 </p>
+
+### c. Computer Vision
+
+#### i. Introduction
+
+<p align="center">
+  <img src="../res/img/img50.png" width="600"/>
+</p>
+
+#### ii. Tips
+
+<p align="center">
+  <img src="../res/img/img51.png" width="600"/>
+</p>
