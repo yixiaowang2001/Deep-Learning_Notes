@@ -139,3 +139,28 @@ Deep learning architure for semantic segementation
 <p align="center">
   <img src="../res/img/img73.png" width="600"/>
 </p>
+
+### k. Transpose Conv
+
++ 与filter每个格子里的数字相乘，忽略掉padding部分，如果有overlap就相加
++ Motivation: expand small inputs
+
+<p align="center">
+  <img src="../res/img/img74.png" width="600"/>
+</p>
+
+### l. U-Net Architecture
+
+#### i. Intuition
+
+<p align="center">
+  <img src="../res/img/img75.png" width="600"/>
+</p>
+
+#### ii. Details
+
+淡蓝色来自于transpose conv，深蓝色来自于skip connection，就是从左侧直接copy到右侧
+
+<p align="center">
+  <img src="../res/img/img76.png" width="600"/>
+</p>
