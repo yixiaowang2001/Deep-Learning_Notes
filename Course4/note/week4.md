@@ -37,3 +37,11 @@ Loss function
   <img src="../res/img/img82.png" width="500"/>
   <img src="../res/img/img83.png" width="500"/>
 </p>
+
+### d. Binary Classification
+
+Using different pairs to train a nerual network -> Same, y = 1; different, y = 0
+
+<p align="center">
+  <img src="../res/img/img84.png" width="600"/>
+</p>
