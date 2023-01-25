@@ -24,3 +24,16 @@
 </p>
 
 ### c. Triplet Loss
+
+Objective
+
+<p align="center">
+  <img src="../res/img/img81.png" width="600"/>
+</p>
+
+Loss function
+
+<p align="center">
+  <img src="../res/img/img82.png" width="500"/>
+  <img src="../res/img/img83.png" width="500"/>
+</p>
