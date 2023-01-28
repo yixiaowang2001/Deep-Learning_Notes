@@ -67,7 +67,7 @@ Summary
   <img src="../res/img/img11.png" width="600"/>
 </p>
 
-<EOS> and <UNK>
+EOS and UNK
 
 <p align="center">
   <img src="../res/img/img12.png" width="600"/>
