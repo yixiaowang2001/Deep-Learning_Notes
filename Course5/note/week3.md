@@ -77,3 +77,5 @@ Procedure:
 <p align="center">
   <img src="../res/img/img57.png" width="600"/>
 </p>
+
+## c. Bleu Score
