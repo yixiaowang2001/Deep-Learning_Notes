@@ -57,7 +57,7 @@ Similarity functions: Cosine similarity
   <img src="../res/img/img32.png" width="600"/>
 </p>
 
-## 2. WOrd2vec & GloVe
+## 2. Word2vec & GloVe
 
 ### a. Learning Word Embeddings
 
