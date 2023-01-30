@@ -78,4 +78,43 @@ Procedure:
   <img src="../res/img/img57.png" width="600"/>
 </p>
 
-## c. Bleu Score
+### c. Bleu Score
+
+比较output和reference，
+
+<p align="center">
+  <img src="../res/img/img58.png" width="500"/>
+  <img src="../res/img/img59.png" width="500"/>
+</p>
+
+使用n-bigrams（n个words合并在一起，然后step by step）
+
+<p align="center">
+  <img src="../res/img/img60.png" width="600"/>
+</p>
+
+### d. Attention Model
+
+#### i. Intuition
+
+Look at the part of the sentence at a time
+
+<p align="center">
+  <img src="../res/img/img61.png" width="600"/>
+</p>
+
+#### ii. Implementation
+
+Computing attention
+
+<p align="center">
+  <img src="../res/img/img62.png" width="600"/>
+</p>
+
+Examples
+
+<p align="center">
+  <img src="../res/img/img63.png" width="600"/>
+</p>
+
+## 2. Speech Recognition
