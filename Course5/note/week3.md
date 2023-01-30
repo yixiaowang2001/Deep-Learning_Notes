@@ -118,3 +118,23 @@ Examples
 </p>
 
 ## 2. Speech Recognition
+
+### a. CTC Cost
+
+<p align="center">
+  <img src="../res/img/img64.png" width="600"/>
+</p>
+
+### b. Trigger Word Detection
+
+What is trigger word detection system?
++ Amazon Echo -> Alexa
++ Baidu DuerOS -> 小度你好
++ Siri -> Hey Siri
++ Google Home -> Okay Google
+
+Algorithm
+
+<p align="center">
+  <img src="../res/img/img65.png" width="600"/>
+</p>
