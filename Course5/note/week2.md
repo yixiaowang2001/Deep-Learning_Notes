@@ -129,3 +129,24 @@ Note:
 <p align="center">
   <img src="../res/img/img42.png" width="600"/>
 </p>
+
+## 3. Applications Using Word Embeddings
+
+### a. Sentiment Classification
+
+Then, many-to-one RNN
+
+<p align="center">
+  <img src="../res/img/img43.png" width="500"/>
+  <img src="../res/img/img44.png" width="500"/>
+</p>
+
+### b. Debiasing Word Embeddings
+
+Bias problem
+
+<p align="center">
+  <img src="../res/img/img45.png" width="600"/>
+</p>
+
+Addressing bias in word embeddings
