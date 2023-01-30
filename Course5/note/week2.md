@@ -150,3 +150,7 @@ Bias problem
 </p>
 
 Addressing bias in word embeddings
+
+<p align="center">
+  <img src="../res/img/img46.png" width="600"/>
+</p>
